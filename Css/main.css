@@ -50,7 +50,8 @@ li {
     font-size: 50px;
     text-align: center;
     letter-spacing: -0.3px;
-    margin: 0;
+    margin: 0px;
+    padding-bottom: 40px;
 }
 /* End Global Components   */
 /* Start Heading  */
@@ -67,7 +68,7 @@ li {
 }
 @media (max-width: 767px) {
     .header .logo img {
-        width: 60px;
+        width: 80px;
         height: 35px;
     }
 }
@@ -106,15 +107,44 @@ li {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
 }
-.gta .gta-content {
-    display: grid;
-    grid-template-columns: repeat(autofill, minmax(300px, 1fr));
-    grid-gap: 30px
+.gta .gta-content .gta-info {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .gta .gta-content .gta-info {
+        flex-direction: column;
+    }
 }
 .gta .gta-content img {
     width: 300px;
     height: 300px;
 }
 .gta .gta-content p {
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .gta .gta-content p {
+        font-size: 17px;
+        padding-left: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+.gta .gta-content .gta-video {
+    text-align: center;
+    margin-top: 10px;
+}
+.gta .gta-content .gta-video video {
+    width: 600px;
+    height: 400px;
+}
+@media (max-width: 767px) {
+    .gta .gta-content .gta-video video {
+        width: 300px;
+        height: 200px;
+    }
 }
 /* End GTA  */
