@@ -65,20 +65,37 @@ li {
     width: 120px;
     height: 70px;
 }
+@media (max-width: 767px) {
+    .header .logo img {
+        width: 60px;
+        height: 35px;
+    }
+}
 .header .links {
     position: absolute;
     top: 50px;
     right: 80px;
 }
+@media (max-width: 767px) {
+    .header .links {
+        top: 25px;
+        right: 40px;
+    }
+}
 .header .links li {
     display: inline;
-    padding-left: 25px;
 }
 .header .links a {
     text-decoration: none;
     color: white;
     font-size: 21px;
     padding: 15px;
+}
+@media (max-width: 767px) {
+    .header .links a {
+        font-size: 11px;
+        padding: 7px;
+    }
 }
 .header .links a:hover {
     background-color: lightslategray;
