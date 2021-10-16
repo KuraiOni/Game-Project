@@ -297,3 +297,22 @@ li {
     border: none;
 }
 /* End Opinion  */
+/* Start Footer  */
+.footer {
+    background-color: #2a2a2a;
+    padding: 30px;
+}
+.footer .container {
+    text-align: center;
+    color: #ffffdd;
+    font-size: 23px;
+}
+@media (max-width: 767px) {
+    .footer .container {
+        font-size: 18px;
+    }
+}
+.footer span {
+    color: yellow;
+}
+/* End Footer  */
