@@ -148,3 +148,97 @@ li {
     }
 }
 /* End GTA  */
+/* Start Rocket  */
+.rtl {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: #eee;
+}
+.rtl .rtl-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .rtl .rtl-content .rtl-info {
+        flex-direction: column;
+    }
+}
+.rtl .rtl-info img {
+    width: 300px;
+    height: 300px;
+}
+.rtl .rtl-info p {
+    padding-right: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .rtl .rtl-info p {
+        font-size: 17px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+.rtl .rtl-video {
+    text-align: center;
+    margin-top: 10px;
+}
+.rtl .rtl-video video {
+    width: 600px;
+    height: 400px;
+}
+@media (max-width: 767px) {
+    .rtl .rtl-video video {
+        width: 300px;
+        height: 200px;
+    }
+}
+/* End Rocket  */
+/* Start League  */
+.lol {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+.lol .lol-info {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .lol .lol-info {
+        flex-direction: column;
+    }
+}
+.lol .lol-info img {
+    width: 300px;
+    height: 300px;
+}
+.lol .lol-info p {
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .lol .lol-info p {
+        font-size: 17px;
+        padding-left: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+.lol .lol-video {
+    text-align: center;
+    margin-top: 10px;
+}
+.lol .lol-video video {
+    width: 600px;
+    height: 400px;
+}
+@media (max-width: 767px) {
+    .lol .lol-video video {
+        width: 300px;
+        height: 200px;
+    }
+}
+/* End League  */
